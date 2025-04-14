@@ -32,11 +32,11 @@ int main()
         cout << endl;
         cin.ignore();
 
-        cout << "masukkan skil 1 =";
+        cout << "masukkan skil 1 = ";
         getline(cin, arhero[i].Skill.skill1);
-        cout << "masukkan skil 2 =";
+        cout << "masukkan skil 2 = ";
         getline(cin, arhero[i].Skill.skill2);
-        cout << "masukkan skil 3 =";
+        cout << "masukkan skil 3 = ";
         getline(cin, arhero[i].Skill.skill3);
         cout << endl;
     }
@@ -50,10 +50,12 @@ int main()
         cout << "Nama hero =" << arhero[i].name << endl;
         cout << "Role hero =" << arhero[i].role << endl;
         cout << "Tipe hero =" << arhero[i].tipe << endl;
-
-        cout << "Skill 1 =" << arhero[i].Skill.skill1 << endl;
-        cout << "Skill 2 =" << arhero[i].Skill.skill2 << endl;
-        cout << "Skill 3 =" << arhero[i].Skill.skill3 << endl;
+        cout << endl;
+        cout << "Skill-skill yang dimiliki hero ke- = " << i + 1 << endl;
+        cout << endl;
+        cout << "Skill 1 = " << arhero[i].Skill.skill1 << endl;
+        cout << "Skill 2 = " << arhero[i].Skill.skill2 << endl;
+        cout << "Skill 3 = " << arhero[i].Skill.skill3 << endl;
         cout << endl;
     }
 }
