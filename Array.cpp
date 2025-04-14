@@ -29,7 +29,8 @@ int main()
     cout << "Tampilkan grade" << endl;
     cout << endl;
 
-    for (int i = 0; i < 5; i++){
-        cout << grade[i] << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "Grade ke-" << i + 1 << " = " << grade[i] << endl;
     }
 }
